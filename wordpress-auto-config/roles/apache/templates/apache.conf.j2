@@ -7,7 +7,7 @@
    CustomLog ${APACHE_LOG_DIR}/access.log combined
 
    <Directory /var/www/{{ http_host }}>
-         AllowOverride
+         AllowOverride All
    </Directory>
 
    <IfModule mod_dir.c>
