@@ -1,5 +1,4 @@
 ---
-# Uncomplicated Firewall (UFW) Configuration
 - name: "UFW - Allow HTTP on port {{ http_port }}"
   ufw:
     rule: allow

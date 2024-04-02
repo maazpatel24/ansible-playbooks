@@ -1,5 +1,4 @@
 ---
-# MySQL Configuration
 - name: Set the root password
   mysql_user:
     name: root
