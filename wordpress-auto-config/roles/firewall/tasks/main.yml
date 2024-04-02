@@ -1,0 +1,8 @@
+---
+# Uncomplicated Firewall (UFW) Configuration
+- name: "UFW - Allow HTTP on port {{ http_port }}"
+  ufw:
+    rule: allow
+    port: "{{ http_port }}"
+    proto: tcp
+  tags: [ firewall ]
